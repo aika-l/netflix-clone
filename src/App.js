@@ -16,9 +16,11 @@ function App() {
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
+      <Row title='Music Movies' fetchUrl={requests.fetchMusicMovies} />
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}/>
+      <Row title='History Movies' fetchUrl={requests.fetchHistoryMovies}/>
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies}/>
-      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries}/>
+      <Row title="Animation" fetchUrl={requests.fetchAnimation}/>
       <Footer />
     </div>
   );
